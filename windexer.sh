@@ -7,7 +7,7 @@ else
 fi
 filetype=("*.c" "*.h")
 FINDCMD="/usr/bin/find"
-CREATE_INDEX_CMD="/usr/bin/cscope -b"
+CREATE_INDEX_CMD="/usr/bin/cscope -b -U"
 
 #compose file path
 for f in "${folders[@]}"
